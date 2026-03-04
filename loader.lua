@@ -2,7 +2,7 @@
 -- Dibuat oleh [Nama Tuan]
 
 -- Ganti URL di bawah dengan URL RAW script utama Tuan!
-local scriptUrl = "https://raw.githubusercontent.com/younm-12/FishItScript/refs/heads/main/fishit_premium.lua"
+local scriptUrl = "https://raw.githubusercontent.com/younm-12/FishItScript/main/fishit_premium.lua"
 
 -- Fungsi untuk mengambil dan menjalankan script
 local success, result = pcall(function()
@@ -22,3 +22,4 @@ end)
 if not success then
     warn("❌ Error: " .. tostring(result))
 end
+
